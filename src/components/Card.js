@@ -15,7 +15,7 @@ const Card = ({ text, index, progress }) => {
 
   let cardStyles = {
     top: `calc(-10% + ${index * 25}px)`,
-    transform: `scale(${2})`,
+    // transform: `scale(${2})`,
   };
 
   console.log(currentProgress);
